@@ -1,0 +1,36 @@
+body {
+  background-color: #151718;
+}
+
+#navbar {
+  background-color: #0078d4;
+}
+
+#select {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+#router {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.table {
+  color: white;
+}
+
+.form-select {
+  background-color: #151718;
+  color: white;
+}
+
+.data-line {
+  color: white;
+}
+
+.data-nome {
+  color: whitesmoke;
+}
