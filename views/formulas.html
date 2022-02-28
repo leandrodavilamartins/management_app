@@ -26,6 +26,8 @@
         <br>
         <br>
         <div id="tabela"></div> <!--table component-->
+
+        
     </div>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.3.0/luxon.min.js"
@@ -42,7 +44,13 @@
 
         <script>
             const firebaseConfig = {
-                // config
+                    apiKey: "AIzaSyAC5Rw2VTilel6x6ngRzpXw6dGvIKv-g2U",
+                    authDomain: "smart-hommie-619b6.firebaseapp.com",
+                    databaseURL: "https://smart-hommie-619b6-default-rtdb.firebaseio.com",
+                    projectId: "smart-hommie-619b6",
+                    storageBucket: "smart-hommie-619b6.appspot.com",
+                    messagingSenderId: "997418377548",
+                    appId: "1:997418377548:web:5aaf0c7ccaac328768efe9"
                 };
             
             firebase.initializeApp(firebaseConfig);
@@ -56,9 +64,8 @@
 
         <script type="module" src="../js/src/auth.js"></script>
 
-        <script type="module" src="../js/generators/navbar.js"></script>
+        <script type="module" src="../js/generators/navbarFormula.js"></script>
         <script type="module" src="../js/data/getFormulas.js"></script>
-        <script type="module" src="../js/generators/table.js"></script>
 
         <script type="module" src="../js/src/router.js"></script>
         <script type="module" src="./formulas.js"></script>

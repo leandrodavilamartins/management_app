@@ -12,7 +12,7 @@ export async function generateTableFormula(items){
     const colunas = [id,lista,calendar,nucleo,premix];
 
 
-    let html = `<table class="table table-dark table-striped table-hover">
+    let html = `<table class="table table-dark table-hover">
         <thead>
         <tr>`
 

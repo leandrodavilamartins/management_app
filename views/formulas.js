@@ -9,8 +9,8 @@ async function generateView(){
     let items = await getFormulas();
     let htmlSelect = await generateSelect(items);
     let htmlTable = await generateTableFormula(items);
-    select.innerHTML = htmlSelect;
-    table.innerHTML = htmlTable;
+    select.innerHTML = htmlSelect; // gera componente select da página 
+    table.innerHTML = htmlTable; // gera componente tabela da página 
     
 }
 
