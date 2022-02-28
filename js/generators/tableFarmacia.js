@@ -1,5 +1,5 @@
 
-export async function generateTableEstoque(items){
+export async function generateTableFarmacia(items){
 
     console.log(items);
 
