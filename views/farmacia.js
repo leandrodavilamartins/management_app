@@ -7,7 +7,8 @@ async function generateView(){
     let items = await getFarmacia();
     let htmlTable = await generateTableFarmacia(items);
     table.innerHTML = htmlTable;
-    
+        spinner.classList.remove('visible');
+    spinner.classList.add('invisible');
 }
 
 generateView(); 

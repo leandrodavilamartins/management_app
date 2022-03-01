@@ -7,7 +7,8 @@ async function generateView(){
     let items = await getVendas();
     let htmlTable = await generateTableVendas(items);
     table.innerHTML = htmlTable;
-    
+        spinner.classList.remove('visible');
+    spinner.classList.add('invisible');
 }
 
 generateView(); 

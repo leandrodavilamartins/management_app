@@ -11,7 +11,8 @@ async function generateView(){
     let htmlTable = await generateTableFormula(items);
     //select.innerHTML = htmlSelect; // gera componente select da página 
     table.innerHTML = htmlTable; // gera componente tabela da página 
-    
+        spinner.classList.remove('visible');
+    spinner.classList.add('invisible');
 }
 
 generateView(); 
